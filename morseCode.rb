@@ -42,3 +42,15 @@ MORSE_DICT = {
 def decode_char(char)
   MORSE_DICT[char]
 end
+
+# Function to decode a word
+def decode_word(word)
+  word.split(" ").map { |char| decode_char(char)}.join
+end
+ 
+# Function to decode a message
+def decode(message)
+  message.split("   ").map { |word| decode_word(word)}.join(" ")
+end
+
+decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")

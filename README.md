@@ -55,7 +55,7 @@ git clone https://github.com/newhoteng/Morse-code.git
 ### Usage
 To run the project, execute the following command:<br>
 - Type `irb` inside the termimal to open Interactive Ruby
-- Copy and paste expressions from `morseCode.rb` into terminal and check their results (press enter after typing each one)
+- Copy and paste expressions from `morse_code.rb` into terminal and check their results (press enter after typing each one)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

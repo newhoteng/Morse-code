@@ -42,7 +42,7 @@ To get a local copy up and running, follow these steps.<br>
 ### Prerequisites
 
 In order to run this project you need:
-- [Ruby](https://nodejs.org/en) installed on your machine
+- [Ruby](https://www.ruby-lang.org/en/) installed on your machine
 - Text editor (VScode)
 
 ### Setup
